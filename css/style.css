@@ -139,7 +139,11 @@ left: 0; */
 }
 /* coustomar review  css end */
 
-
+/* contract css start */
+.location-indicator{
+  display: flex;
+}
+/* contract css end */
 
 
 
