@@ -5,13 +5,29 @@
   font-size: 30px;
 }
 
+a{
+  text-decoration: none;
+  
+}
+
+/* git push command
+
+git push -u origin main
+
+*/
+
 /* ------------------------ */
+
 /* nav css start */
 .navbar{
   padding: 0;
 }
+.navbar-brand{
+  font-size: 35px;
+}
 .logotext{
   color: chocolate;
+  
 }
 .navbar-nav{}
 .navbar-nav .nav-item{}
@@ -75,6 +91,7 @@ transition: 1s;
 /* skills css start */
 .skills{
   margin-top: 7px;
+  height: 230px;
 }
 .skills div {
   width: 55px;
@@ -92,3 +109,38 @@ transition: 1s;
 }
 
 /* skills css end */
+/* protfolio css start  */
+
+/* protfolio css end  */
+/* coustomar review  css start */
+.review_logo{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  
+}
+
+.pbfore {
+/* position: relative; */
+}
+.pbfore::before {
+content: '"';
+font-size: 20px;
+/* position: absolute;
+top: 0;
+left: 0; */
+}
+.pbfore::after {
+content: '"';
+font-size: 20px;
+/* position: absolute;
+top: 0;
+left: 0; */
+}
+/* coustomar review  css end */
+
+
+
+
+
+
