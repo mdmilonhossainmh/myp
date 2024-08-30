@@ -110,7 +110,23 @@ transition: 1s;
 
 /* skills css end */
 /* protfolio css start  */
+@media(max-width:576px){
+  .px-3{
+    padding: 0px  !important;
+  }
+   #px-3{
+    padding:0px 5px !important;
+  }
+}
+@media(max-width:300px){
+  #px-3{
+   text-align: center;
+  }
 
+  .social_icon{
+    flex-direction: column;
+  }
+}
 /* protfolio css end  */
 /* coustomar review  css start */
 .review_logo{
@@ -140,9 +156,13 @@ left: 0; */
 /* coustomar review  css end */
 
 /* contract css start */
-.location-indicator{
+.maparea .location-indicator{
   display: flex;
 }
+.maparea .location-indicator div .mapspan{
+  font-size: 15px;
+}
+
 /* contract css end */
 
 
