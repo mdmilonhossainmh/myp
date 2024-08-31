@@ -37,7 +37,7 @@ git push -u origin main
 .login_regis li:hover{
 background-color: orange;
 border-radius: 10px;
-margin-bottom: -10px;
+margin-bottom: -15px;
 }
 
 .navbar-nav{}
@@ -59,7 +59,40 @@ transition: 0.5s;
     flex-basis: auto;
     
   }
-
+}
+@media (max-width: 500px) {
+  .navbar{
+    flex-direction: column !important;
+  }
+  .navbar-brand{
+    flex-basis: 100%;
+  }
+  .login_regis{
+    flex-basis: 60%;
+    margin-top: -10;
+    
+  }
+  .login_regis li{
+    margin: 0 ;
+    padding: 0;
+    margin-right: auto;
+  }
+  .login_regis li:first-child{
+    margin: 0 ;
+    padding: 0;
+    margin-left: 0 !important;
+  }
+  .login_regis li:hover{
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    display: inline;
+  }
+  .bar-nav{
+  flex-basis: 10%;
+  margin-bottom: 20px;
+  }
+}
 /* nav css end */
 /* bannar css start  */
 
@@ -156,7 +189,7 @@ transition: 1s;
 /* protfolio css end  */
 /* coustomar review  css start */
 .review_logo{
-  height: 40px;
+  height: 40px ;
   width: 40px;
   border-radius: 50%;
   padding: 4px;
