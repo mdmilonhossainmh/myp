@@ -191,6 +191,13 @@ transition: 1s;
 }
 .protfolio_project div{
   position: relative;
+  height: 200px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.protfolio_project div .pcon{
+  margin: 5px ;
+  border-bottom: 10px solid black;
 }
 .protfolio_project div:hover >a{
   position: absolute;
